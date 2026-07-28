@@ -1,0 +1,37 @@
+# [Nom de la machine/challenge] — [TryhackMe]
+
+**Date** : 28/07/2026
+**Difficulté** : Facile / Moyen / Difficile
+**Catégorie** : Web / Réseau / Système / Crypto / etc.
+
+##  Objectif
+Ce que la machine/le challenge demande (ex : obtenir le flag utilisateur puis root).
+
+##  Reconnaissance
+Outils et commandes utilisés pour explorer la cible (nmap, gobuster, etc.) et ce qu'ils ont révélé.
+
+```bash
+nmap -sV -sC <IP>
+```
+Résultat clé : (ports ouverts, services identifiés...)
+
+##  Énumération
+Ce que tu as trouvé en creusant chaque service/piste (répertoires cachés, versions vulnérables, identifiants trouvés...).
+
+##  Exploitation
+Étape par étape, comment tu as exploité la faille. Inclue les commandes exactes.
+
+```bash
+# ta commande d'exploitation
+```
+
+##  Post-exploitation / Élévation de privilèges
+Si applicable : comment tu es passée d'un accès limité à un accès complet.
+
+##  Points clés retenus
+2-3 lignes sur ce que tu as appris ou ce qui t'a bloquée longtemps — c'est la partie la plus utile pour toi en relecture future.
+
+##  Outils utilisés
+- nmap
+- gobuster
+- ...
